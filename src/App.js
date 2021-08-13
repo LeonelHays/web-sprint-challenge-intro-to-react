@@ -3,8 +3,6 @@ import './App.css';
 import axios from 'axios';
 import Character from './components/Character'
 const App = () => {
-  // Try to think through what state you'll need for this app before starting. Then build out
-  // the state properties here.
   const [characters, setCharacters] = useState([]);
   const [error, setError] = useState(null);
 
