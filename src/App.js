@@ -20,7 +20,7 @@ const App = () => {
     })
     .catch(err => {
       console.error(err);
-      setError('Sorry, the archives are having technical dificulties');
+      setError('Sorry, the Jedi archives are having technical dificulties');
     })
   })
 
