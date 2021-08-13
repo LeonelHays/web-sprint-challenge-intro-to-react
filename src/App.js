@@ -20,12 +20,9 @@ const App = () => {
     })
     .catch(err => {
       console.error(err);
-      setError('Sorry, the droids are reparing the site');
+      setError('Sorry, the archives are having technical dificulties');
     })
   })
-
-
-
 
   return (
     <div className="App">
@@ -44,3 +41,4 @@ const App = () => {
 }
 
 export default App;
+// github is being wired
